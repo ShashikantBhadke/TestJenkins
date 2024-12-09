@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "31B584F3-7064-49D3-B923-C94A22F0A4D9",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TestJenkins.xcodeproj",
+      "identifier" : "CFCA2F792D0759150052F706",
+      "name" : "TestJenkins"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TestJenkins.xcodeproj",
+        "identifier" : "CFCA2F8F2D0759180052F706",
+        "name" : "TestJenkinsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
